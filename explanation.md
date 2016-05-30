@@ -13,7 +13,7 @@
 <h2>Browser's Function</h2>
 <p>The main function of a browser is to present the web resource you choose, by requesting it from the server and displaying it in the browser window. The resource is usually an HTML document, but may also be a PDF, image, or some other type of content. The location of the resource is specified by the user using a URI (Uniform Resource Identifier).</p>
 
-<h2>Browser's main components</h2>
+<h2>Browser's main components</h2>(http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 <ol>
 	<li><em><strong>User Interface</strong></em>
 	<p>Includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.</p></li>
