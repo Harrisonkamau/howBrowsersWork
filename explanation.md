@@ -1,4 +1,4 @@
-<h1>How Browsers Work</h1>(http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+<h1>How Browsers Work</h1>
 <h2>Introduction</h2>
 <p>Web browsers are the most widely used software today.</p>
 <p>There are five major browsers used on desktop today: 
@@ -9,8 +9,31 @@
 		<li>Safari</li>
 		<li>Opera</li>
 		</ul></p>
+	<h3>Summary</h3>(http://ptgmedia.pearsoncmg.com/images/9780789736260/samplechapter/0789736268%5FSample%5FChapter%5F18.pdf)
+	<p>
+	Like much of the Internet, the World Wide Web operates on a client/server model. You run a web
+	client on your computer—called a web browser—such as Microsoft’s Internet Explorer or Firefox. That
+	client contacts a web server and requests information or resources. The web server locates and then sends
+	the information to the web browser, which displays the results.
+</p>
+<p>
+	When web browsers contact servers, they’re asking to be sent pages built with Hypertext Markup
+	Language (HTML). Browsers interpret those pages and display them on your computer. They also can dis-
+	play applications, programs, animations, and similar material created with programming languages such as
+	Java and ActiveX, scripting languages such as JavaScript, and techniques such as AJAX.
+	Sometimes, home pages contain links to files the web browser can’t play or display, such as sound or ani-
+	mation files. In that case, you need a plug-in or a helper application. You configure your web browser or
+	operating system to use the helper application or plug-in whenever it encounters a sound, animation, or
+	other type of file the browser can’t run or play.
+</p>
+<p>
+	Over the years, web browsers have become increasingly sophisticated. Browsers are now full-blown soft-
+	ware suites that can do everything from videoconferencing to letting you create and publish HTML pages.
+	Browsers now also blur the line between your local computer and the Internet—in essence, they can make
+	your computer and the Internet function as a single computer system.
+</p>
 
-<h2>Browser's Functionality</h2>
+<h2>Browser's Functionality</h2>(http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 <p>The main function of a browser is to present the web resource you choose, by requesting it from the server and displaying it in the browser window. The resource is usually an HTML document, but may also be a PDF, image, or some other type of content. The location of the resource is specified by the user using a URI (Uniform Resource Identifier).</p>
 <p>The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. </p>
 
