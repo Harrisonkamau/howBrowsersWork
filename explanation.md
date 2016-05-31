@@ -81,27 +81,27 @@
 		<li>Paint the render tree on the screen</li>
 	</ol></p>
 <h2>Phase 1: <h3>Parsing the HTML and CSS</h3></h2>
-	<p>In this phase, the engine will start the parsing of the HTML.</p>
-	<p>The output will be a tree called Document Object Model (DOM) or content tree,
-	where each HTML tag is represented by a node of the tree (DOM node).</p>
-	<p>The mapping between HTML tags and DOM nodes is not 1:1 but almost.
-	The root element of the tree is the <html> element.</p>
-	<p>The purpose of the DOM is at least dual:
+<p>In this phase, the engine will start the parsing of the HTML.</p>
+<p>The output will be a tree called Document Object Model (DOM) or content tree,
+where each HTML tag is represented by a node of the tree (DOM node).</p>
+<p>The mapping between HTML tags and DOM nodes is not 1:1 but almost.
+The root element of the tree is the <html> element.</p>
+<p>The purpose of the DOM is at least dual:
+<ul>
+	<li>as an input tree for the next phases (to build the render tree)</li>
+	<li>as an interface to connect the web page to scripts:
+<ul>
+	<li>every DOM node implements an interface that defines how the structure of the tree can be accessed and manipulated</li>
+	<li>examples of common DOM methods are: .getElementById(), .createElement(), .removeChild()</li>
+</ul></li>
+</ul></p>
+<h3>The HTML parsing is synchronous</h3>
+<p>When the parser reaches a "script" tag: 
 	<ul>
-		<li>as an input tree for the next phases (to build the render tree)</li>
-		<li>as an interface to connect the web page to scripts:
-		<ul>
-			<li>every DOM node implements an interface that defines how the structure of the tree can be accessed and manipulated</li>
-			<li>examples of common DOM methods are: .getElementById(), .createElement(), .removeChild()</li>
-		</ul></li>
-	</ul></p>
-	<h3>The HTML parsing is synchronous</h3>
-		<p>When the parser reaches a "script" tag: 
-			<ul>
-				<li>It <strong>stops parsing</strong></li>
-				<li>It fetches the script from the network, if it is externa</li>
-				<li>It yields control over to the Javascript engine to executes the code</li>
-				<li>The parsing is resumed</li>
-			</ul>
-		</p>
-		<p>Since "script" tags are blocking the parsing, moving them at the bottom of our web page (or just after the above the fold content) makes the page rendering faster.</p>
+		<li>It <strong>stops parsing</strong></li>
+		<li>It fetches the script from the network, if it is externa</li>
+		<li>It yields control over to the Javascript engine to executes the code</li>
+		<li>The parsing is resumed</li>
+	</ul>
+</p>
+<p>Since "script" tags are blocking the parsing, moving them at the bottom of our web page (or just after the above the fold content) makes the page rendering faster.</p>
