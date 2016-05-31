@@ -16,20 +16,20 @@
 
 <h2>Browser's main components</h2>
 	<ol>
-		<li><em><strong>User Interface</strong></em>
-		<p>Includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.</p></li>
-		<li><em><strong>Browser Engine</strong></em>
-		<p>Marshals actions between the UI and the rendering engine.</p></li>
-		<li><em><strong>The Rendering Engine</strong></em>
-		<p>Responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.</p></li>
-		<li><em><strong>Networking</strong></em>
-		<p>For network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.</p></li>
-		<li><em><strong>UI Backend</strong></em>
-		<p>Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.</p></li>
-		<li><em><strong>JavaScript Interpreter</strong></em>
-		<p>Used to parse and execute JavaScript code.</p></li>
-		<li><em><strong>Data Storage</strong></em>
-		<p>This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.</p></li>
+	<li><em><strong>User Interface</strong></em>
+	<p>Includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.</p></li>
+	<li><em><strong>Browser Engine</strong></em>
+	<p>Marshals actions between the UI and the rendering engine.</p></li>
+	<li><em><strong>The Rendering Engine</strong></em>
+	<p>Responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.</p></li>
+	<li><em><strong>Networking</strong></em>
+	<p>For network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.</p></li>
+	<li><em><strong>UI Backend</strong></em>
+	<p>Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.</p></li>
+	<li><em><strong>JavaScript Interpreter</strong></em>
+	<p>Used to parse and execute JavaScript code.</p></li>
+	<li><em><strong>Data Storage</strong></em>
+	<p>This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.</p></li>
 	</ol>
 	<p>The two main modules in any browser are The rendering engine also known as layout engine and JavaScript Interpreter</p>
 
