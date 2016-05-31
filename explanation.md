@@ -15,7 +15,7 @@
 <p>The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. </p>
 
 <h2>Browser's main components</h2>
-	<ol>
+<ol>
 	<li><em><strong>User Interface</strong></em>
 	<p>Includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.</p></li>
 	<li><em><strong>Browser Engine</strong></em>
@@ -30,8 +30,8 @@
 	<p>Used to parse and execute JavaScript code.</p></li>
 	<li><em><strong>Data Storage</strong></em>
 	<p>This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.</p></li>
-	</ol>
-	<p>The two main modules in any browser are The rendering engine also known as layout engine and JavaScript Interpreter</p>
+</ol>
+<p>The two main modules in any browser are The rendering engine also known as layout engine and JavaScript Interpreter</p>
 
 <h2>Components of a web page</h2>(https://docs.google.com/presentation/d/1kjC_L5C-E2Y_wOVkblJxRr6GBgw1V_FBbFI4jAoh688/edit#slide=id.gc563c71b0_1_35)
 	<ul>
