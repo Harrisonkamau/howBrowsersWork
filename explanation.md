@@ -1,7 +1,7 @@
 <h1>How Browsers Work</h1>
 <h2>Introduction</h2>
 <p>Web browsers are the most widely used software today.</p>
-<p>There are five major browsers used on desktop today: 
+<p>There are five major browsers used on desktop today:
 		<ul>
 		<li>Chrome</li>
 		<li>Internet Explorer</li>
@@ -96,7 +96,7 @@ The root element of the tree is the <html> element.</p>
 </ul></li>
 </ul></p>
 <h3>The HTML parsing is synchronous</h3>
-<p>When the parser reaches a "script" tag: 
+<p>When the parser reaches a "script" tag:
 	<ul>
 		<li>It <strong>stops parsing</strong></li>
 		<li>It fetches the script from the network, if it is externa</li>
