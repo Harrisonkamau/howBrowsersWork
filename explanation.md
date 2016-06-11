@@ -26,6 +26,7 @@
 	operating system to use the helper application or plug-in whenever it encounters a sound, animation, or
 	other type of file the browser can’t run or play.
 </p>
+
 <p>
 	Over the years, web browsers have become increasingly sophisticated. Browsers are now full-blown soft-
 	ware suites that can do everything from videoconferencing to letting you create and publish HTML pages.
